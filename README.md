@@ -1,7 +1,9 @@
 # Image-Race-
 This Image Race Game is for discord to compete other players who posts the best image. 
 
-
+Extra Features: 
+1.) Greetings bot message 
+2.) check bad words
 
 
 
