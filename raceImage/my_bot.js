@@ -58,7 +58,6 @@ client.on('message', (receivedMessage) => {
 
     importFunc1.downloadImage_ClassifyImage(receivedMessage, user_username, user_countSent); 
     importFunc1.greetings1(receivedMessage); 
-    importFunc1.checkBadWords(receivedMessage); 
 
 
     console.log(receivedMessage.content); 
