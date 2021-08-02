@@ -42,21 +42,6 @@ function greetings1(receivedMessage) {
     }
 }
 
-function checkBadWords(receivedMessage) {
-    let data2 = fs.readFileSync("data/dirty_words.txt", 'utf-8'); 
-    let result_data2 = data2.split("\n"); 
-    let message_data2 = ["it is better to not use any dirty words.", "sometimes you need to watch your mouth.", "saying disrespectful words are not cool."]; 
-
-
-
-    shuffle(message_data2); 
-    for (var i = 0; i < result_data2.length; i++) {
-        if (receivedMessage.content.includes(result_data2[i])) {
-            receivedMessage.channel.send(message_data2[0]); 
-        }
-    }
-}
-
 
 
 async function downloadImage_ClassifyImage(receivedMessage, user_username, user_countSent) {
@@ -117,5 +102,4 @@ async function ImageClassification(receivedMessage, imageClient, user_username, 
 
 
 module.exports = {shuffle, 
-    greetings1, downloadImage_ClassifyImage, ImageClassification, 
-    checkBadWords }; 
+    greetings1, downloadImage_ClassifyImage, ImageClassification }; 
