@@ -11,7 +11,6 @@ Send the same image twice, but you cannot send the same image more than twice. Y
 
 Extra Features: 
 1.) Greetings bot message 
-2.) check bad words
 
 
 Require install packages:
