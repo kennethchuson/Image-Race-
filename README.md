@@ -1,4 +1,4 @@
-# Image-Race
+# Image Race
 This Image Race Game is for discord to compete other players who posts the best image. 
 
 
@@ -33,4 +33,3 @@ node my_bot.js
 
 
 *Made by Kenneth Chuson*
-
